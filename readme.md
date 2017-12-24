@@ -42,10 +42,10 @@ How to use:
   const polo = new Poloniex(API_KEY, SECRET, 0, 0);
   /*
   // const polo = new Poloniex(API_KEY, SECRET, buyAmount (default set), markup (default set as 0));
-  API_KEY = the api key you recieve from the exchange poloniex;
-  SECRET = the secret you recieve from the exchange poloniex;
-  buyAmount = the amount of BTC you want to spend on the coin that was just tweeted about (min 0.000001);
-  markup = incase another bot gets a request in faster and clears the book, this lets you send a buy with a markup.      Recomended @ should be .01 - .05;
+  API_KEY = the api key you recieve from the exchange poloniex; (Do not touch this..remember..you already set it on line 5-6)
+  SECRET = the secret you recieve from the exchange poloniex; (Do not touch this..remember..you already set it on line 5-6)
+  buyAmount = the amount of BTC you want to spend on the coin that was just tweeted about (min 0.000001); (you must set this)
+  markup = incase another bot gets a request in faster and clears the book, this lets you send a buy with a markup. (and set this)   Recomended @ should be .01 - .05;
 */
 ```
 
